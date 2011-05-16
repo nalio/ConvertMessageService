@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<serviceType xmlns="http://www.sonicsw.com/sonicxq" name="ConvertMessageServiceType" factoryClass="com.progress.codeshare.esbservice.convertMessage.ConvertMessageServiceType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sonicsw.com/sonicxq file:///D:/Sonic/ESB7.5/schema/serviceType.xsd">
+	<validParams>
+		<runtime>
+		    <stringParam name="messagePart"></stringParam>
+		    <stringParam name="fileNameLayout"></stringParam>
+		</runtime>
+	</validParams>
+</serviceType>
